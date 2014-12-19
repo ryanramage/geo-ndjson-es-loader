@@ -1,0 +1,15 @@
+{
+  "FeatureCollectionPoly": {
+    "properties": {
+      "type": {
+        "store": "yes",
+        "type": "string"
+      },
+      "geometry": {
+        "type": "geo_shape",
+        "tree": "quadtree",
+        "precision": "20m"
+      }
+    }
+  }
+}
